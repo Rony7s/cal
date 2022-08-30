@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+}
+.cal_area{
+    text-align: center;
+}
+.cal_area h1{
+    font-size: 50px;
+    line-height: 70px;
+}
+table{
+    background: #ddd;
+    width: 322px;
+    margin: 0 auto;
+}
+table, th, td {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding:5px;
+    text-align: center;
+    font-size: 25px;
+  }
+  th{
+    height: 50px;
+    font-size: 40px;
+    text-align: end;
+    background: white;
+  }
+  td{
+    height: 50px;
+    width: 50px;
+  }
+  td:hover{
+    background: white;
+    color: green;
+  }
